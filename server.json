@@ -6,7 +6,7 @@
       "type": "income",
       "category": "Venda",
       "price": 14000,
-      "date": "2024-01-29T23:46:37.618Z"
+      "createdAt": "2024-01-29T23:46:37.618Z"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 50,
-      "date": "2024-01-29T23:46:37.618Z"
+      "createdAt": "2024-01-29T23:46:37.618Z"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "type": "outcome",
       "category": "Casa",
       "price": 1000,
-      "date": "2024-01-29T23:46:37.618Z"
+      "createdAt": "2024-01-29T23:46:37.618Z"
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "type": "income",
       "category": "Venda",
       "price": 3000,
-      "date": "2024-01-29T23:46:37.618Z"
+      "createdAt": "2024-01-29T23:46:37.618Z"
     },
     {
       "id": "5",
@@ -38,7 +38,7 @@
       "type": "income",
       "category": "Venda",
       "price": 14000,
-      "date": "2024-01-29T23:46:37.618Z"
+      "createdAt": "2024-01-29T23:46:37.618Z"
     },
     {
       "id": "6",
@@ -46,7 +46,7 @@
       "type": "outcome",
       "category": "Alimentação",
       "price": 50,
-      "date": "2024-01-29T23:46:37.618Z"
+      "createdAt": "2024-01-29T23:46:37.618Z"
     },
     {
       "id": "7",
@@ -54,7 +54,7 @@
       "type": "outcome",
       "category": "Casa",
       "price": 1000,
-      "date": "2024-01-29T23:46:37.618Z"
+      "createdAt": "2024-01-29T23:46:37.618Z"
     },
     {
       "id": "8",
@@ -62,7 +62,7 @@
       "type": "income",
       "category": "Venda",
       "price": 3000,
-      "date": "2024-01-29T23:46:37.618Z"
+      "createdAt": "2024-01-29T23:46:37.618Z"
     }
   ]
 }
