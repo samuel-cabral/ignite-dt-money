@@ -15,62 +15,6 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2024-01-29T23:46:37.618Z"
-    },
-    {
-      "id": "3",
-      "description": "Aluguel",
-      "type": "outcome",
-      "category": "Casa",
-      "price": 1000,
-      "createdAt": "2024-01-29T23:46:37.618Z"
-    },
-    {
-      "id": "4",
-      "description": "Recebimento de Cliente",
-      "type": "income",
-      "category": "Venda",
-      "price": 3000,
-      "createdAt": "2024-01-29T23:46:37.618Z"
-    },
-    {
-      "id": "5",
-      "description": "Desenvolvimento de Site",
-      "type": "income",
-      "category": "Venda",
-      "price": 14000,
-      "createdAt": "2024-01-29T23:46:37.618Z"
-    },
-    {
-      "id": "6",
-      "description": "Hamburger",
-      "type": "outcome",
-      "category": "Alimentação",
-      "price": 50,
-      "createdAt": "2024-01-25T23:46:37.618Z"
-    },
-    {
-      "id": "7",
-      "description": "Aluguel",
-      "type": "outcome",
-      "category": "Casa",
-      "price": 1000,
-      "createdAt": "2024-01-26T23:46:37.618Z"
-    },
-    {
-      "id": "8",
-      "description": "Recebimento de Cliente",
-      "type": "income",
-      "category": "Venda",
-      "price": 3000,
-      "createdAt": "2024-01-27T23:46:37.618Z"
-    },
-    {
-      "id": "9",
-      "description": "Rocketseat ONE",
-      "type": "outcome",
-      "category": "Assinaturas de Serviços",
-      "price": 1980,
-      "createdAt": "2024-01-28T23:46:37.618Z"
     }
   ]
 }
