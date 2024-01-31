@@ -4,14 +4,14 @@ import {
   CurrencyDollar,
 } from '@phosphor-icons/react'
 import { useTheme } from 'styled-components'
-import { useSummary } from '../../../hooks/useSummary'
-import { priceFormatter } from '../../../utils/formatter'
+import { useSummary } from '../../hooks/useSummary'
+import { priceFormatter } from '../../utils/formatter'
 import { SummaryCard, SummaryContainer } from './styles'
 
 export function Summary() {
   const theme = useTheme()
 
-  const { summary } = useSummary()
+  const summary = useSummary()
 
   return (
     <SummaryContainer>
