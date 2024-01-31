@@ -3,6 +3,7 @@ import { ArrowCircleDown, ArrowCircleUp, X } from '@phosphor-icons/react'
 import * as Dialog from '@radix-ui/react-dialog'
 import { Controller, useForm } from 'react-hook-form'
 import { z } from 'zod'
+import { useTransactions } from '../../contexts/TransactionsContext'
 import {
   CloseButton,
   Content,
@@ -21,6 +22,8 @@ const newTransactionFormSchema = z.object({
 type NewTransactionFormValues = z.infer<typeof newTransactionFormSchema>
 
 export function NewTransactionModal() {
+  const { createTransaction } = useTransactions()
+
   const {
     control,
     register,
@@ -38,8 +41,10 @@ export function NewTransactionModal() {
   })
 
   async function handleCreateNewTransaction(data: NewTransactionFormValues) {
-    await new Promise((resolve) => setTimeout(resolve, 2000))
-    console.log(data)
+    const { description, price, category, type } = data
+
+    await createTransaction({ description, price, category, type })
+
     reset()
   }
 

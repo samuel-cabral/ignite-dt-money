@@ -23,6 +23,14 @@
       "category": "Casa",
       "price": 1000,
       "createdAt": "2024-01-29T23:46:37.618Z"
+    },
+    {
+      "description": "Macbook Pro",
+      "price": 8000,
+      "category": "Equipamentos",
+      "type": "outcome",
+      "createdAt": "2024-01-31T01:15:01.664Z",
+      "id": "4"
     }
   ]
 }

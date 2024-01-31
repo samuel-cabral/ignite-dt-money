@@ -1,6 +1,6 @@
 export const dateFormatter = new Intl.DateTimeFormat('pt-BR', {
   day: 'numeric',
-  month: 'long',
+  month: '2-digit',
   year: 'numeric',
 })
 
